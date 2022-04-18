@@ -3,7 +3,7 @@ name: Metabase-test Night CI
 
 on:
   schedule:
-    - cron: '0 22 * * 0-5'
+    - cron: '*/1 * * * 0-5'
 
 jobs:
   build:
